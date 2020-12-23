@@ -1,5 +1,5 @@
 package com.company;
 
-public interface MyInterface<S> {
-    void maths(S value);
+public interface MyInterface<T,S> {
+    void maths(T t, S s);
 }
